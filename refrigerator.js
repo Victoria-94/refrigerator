@@ -24,7 +24,13 @@ class Refrigeradora {
     }
     }
 
-    'use strict';
+    let llenado = Refrigeradora("eggs","carrot");
+    llenado.addMeal("bread");
+    llenado.addVegetable("peper");
+
+    alert(llenado);
+    alert(Refrigeradora);
+///////////////////////////////////////////////////////////
 
     class AlimentoRefrigerador {
         constructor(nombre) {
