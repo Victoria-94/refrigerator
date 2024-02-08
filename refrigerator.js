@@ -27,26 +27,28 @@ class Refrigeradora {
     'use strict';
 
     class AlimentoRefrigerador {
-        constructor(nombre, tipo, fechaCaducidad) {
+        constructor(nombre) {
             this.nombre = nombre;
-            this.tipo = tipo;
-            this.fechaCaducidad = fechaCaducidad;
+            
         }
 
         obtenerInformacion() {
-            return `Nombre: ${this.nombre}, Tipo: ${this.tipo}, Caducidad: ${this.fechaCaducidad}`;
+            return `Nombre: ${this.nombre}}`;
         }
     }
 
-    let alimentosEnRefrigerador = [
-        new AlimentoRefrigerador('Manzana', 'Fruta', '2024-02-15'),
-        new AlimentoRefrigerador('Leche', 'Lácteo', '2024-02-10')
+    let mealRefrigerador = [
+        new mealRefrigerador('Manzana'),
+        new mealRefrigerador('Leche')
     ];
 
 
     let informacionAlimentos = [];
 
 
-    for (let alimento of alimentosEnRefrigerador) {
+    for (let alimento of mealRefrigerador) {
         informacionAlimentos.push(alimento.obtenerInformacion());
     }
+
+    
+    
