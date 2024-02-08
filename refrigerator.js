@@ -50,5 +50,5 @@ class Refrigeradora {
         informacionAlimentos.push(alimento.obtenerInformacion());
     }
 
-    
+    informacionAlimentos.AlimentoRefrigerador();
     
